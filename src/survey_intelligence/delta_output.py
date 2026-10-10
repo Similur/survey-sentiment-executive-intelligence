@@ -1,8 +1,3 @@
-"""Optional Databricks/Fabric-style Spark Delta sink.
-
-Requires an existing Spark session with Delta capabilities enabled.
-"""
-
 
 def write_delta(rows: list[dict], table: str, mode: str) -> None:
     try:
