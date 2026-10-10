@@ -1,9 +1,4 @@
-"""Extract paragraph-level responses from documents.
 
-Prebuilt layout returns paragraphs/lines, not semantic survey responses.
-This demo treats each paragraph as a candidate response; real forms need
-question/answer mapping, filtering and human validation.
-"""
 from pathlib import Path
 
 
