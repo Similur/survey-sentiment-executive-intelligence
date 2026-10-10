@@ -1,4 +1,4 @@
-"""CLI entry point for the demonstration pipeline."""
+
 import argparse
 import json
 import os
